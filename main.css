@@ -1,0 +1,141 @@
+.header {
+    height:40px;
+    width:350px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color:black;
+    margin:auto
+   }
+
+section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.viz {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.map{
+    margin: auto;
+}
+
+.map svg{
+    width: 600px;
+    height: 340px;
+}
+
+.outer {
+    overflow: scroll;
+    overflow-y: hidden;
+    width:600px;
+    height:210px;
+}
+
+.graph svg {
+    width:70000px;
+    height:200px;
+    background-color:white;
+}
+
+.content {
+    width: 600px;
+    height:550px;
+    overflow: scroll;
+    overflow-x: hidden;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+}
+
+img{
+    display: block;
+    justify-content: center;
+    margin: auto;
+}
+
+.stroke{
+    fill: none;
+    stroke: rgb(255, 255, 255);
+    stroke-width: 5px;
+    visibility: hidden;
+}
+
+.fill {
+    fill:none;
+}
+
+.graticule {
+    fill: none;
+    stroke:#CD34B5;
+    stroke-width: .2px;
+    visibility: hidden;
+}
+
+.land {
+    stroke: black;
+    stroke-width: 0.9;
+    fill: #ff9100be;
+    visibility: visible;
+    opacity:100%;
+}
+
+.boundary {
+    fill:none;
+    stroke: black;
+    stroke-width: 1px;
+    visibility: visible;
+    opacity: 100%;
+}
+
+.x-axis path {
+    stroke:black;
+}
+text{
+    font-family: serif;
+    font-size: 15px;
+}
+
+.circle {
+    stroke:black;
+    fill:#cd348d;
+    opacity: 80%;
+}
+
+
+.line {
+    stroke:black;
+    opacity: 100%;
+}
+
+.quake {
+    fill:cadetblue;
+    stroke: black;
+    opacity: 0.8;
+}
+
+.bubble{
+    stroke:black;
+    fill:#ff9100be;
+    opacity: 90%;
+}
+
+.brushed {
+    opacity: 95%;
+    stroke: white;
+    fill:#CD34B5;
+}
+
+.nonBrush {
+    stroke:black;
+    fill:#ff9100be;
+    opacity: 90%;
+}
+
+.y-axis text{
+ visibility:visible;
+ stroke: black;
+ font-size: 10px;
+}
